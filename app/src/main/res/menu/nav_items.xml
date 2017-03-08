@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home"
+        android:title="@string/title_activity_electricity"
+        android:icon="@drawable/fix_it_one"
+        />
+    <item
+        android:id="@+id/menu_search"
+        android:title="@string/title_activity_plumbing"
+        android:icon="@drawable/fit_it_two"
+        />
+
+    <item
+        android:id="@+id/menu_notifications"
+        android:title="@string/title_activity_infrastructure"
+        android:icon="@drawable/fit_it_three" />
+
+</menu>
