@@ -9,6 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/recyclerList"
+        android:background="@drawable/yebo"
         android:layout_weight="1">
 
 
@@ -28,7 +29,7 @@
             android:id="@+id/photoPickerButton"
             android:layout_width="36dp"
             android:layout_height="36dp"
-            android:background="@android:drawable/ic_menu_gallery" />
+            android:background="@drawable/theone"/>
 
         <EditText
             android:id="@+id/messageEditText"
@@ -39,10 +40,11 @@
 
         <Button
             android:id="@+id/sendB"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:layout_gravity="bottom"
-            android:text="Send"/>
+            android:background="@drawable/sendme"
+             />
 
     </LinearLayout>
 
